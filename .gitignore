@@ -1,18 +1,10 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++
-
-### C++ ###
 # Prerequisites
 *.d
 
 # Compiled Object files
 *.slo
 *.lo
-*.exe
 *.o
-Online-Judge/*.o
-Topic-Problems/*.o
 *.obj
 
 # Precompiled Headers
@@ -35,9 +27,6 @@ Topic-Problems/*.o
 *.lib
 
 # Executables
-Topic-Problems/*.exe
-Online-Judge/*.exe
+*.exe
 *.out
 *.app
-
-# End of https://www.toptal.com/developers/gitignore/api/c++
