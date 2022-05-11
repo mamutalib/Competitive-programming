@@ -9,6 +9,8 @@
 # Compiled Object files
 *.slo
 *.lo
+*.exe
+*.o
 Online-Judge/*.o
 Topic-Problems/*.o
 *.obj
