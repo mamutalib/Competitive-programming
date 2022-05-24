@@ -1,5 +1,5 @@
 *.vscode
-
+*.prob
 #C/C++ ingnore files
 # Prerequisites
 *.d
