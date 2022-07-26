@@ -27,35 +27,18 @@ using namespace std;
 #define pf printf
 #define sc scanf
 
-// void solve(){
-//     int t,n;
-//     cin >> t >> n;
-//     wt{
-//         int pass[n];
-//         fn{
-//             cin >> pass[i];
-//         }
 
-
-//     }
-// }
 void solve() {
     int t;
     cin >> t;
     wt{
         int n; 
         cin >> n;
-        while(n!=0){
-            if(n%2!=0){
-                cout << 7;
-                n = n-3;
-            }
-            else {
-                cout << 1 ;
-                n = n-2;
-            }
+        int arr[n];
+        fn{
+            cin >> arr[i];
         }
-        cout << nl;
+        
     }
 }
 
