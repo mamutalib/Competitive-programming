@@ -39,5 +39,20 @@ int main() {
         cout << "item found" << endl;
     }
 
-
+    return 0;
 }
+
+/*
+1.  Sample input:
+    5
+    1 2 3 4 5
+    3
+    Output: item found
+
+2. Sample input
+    5
+    1 2 3 4 5
+    10
+    Output: item not found
+
+*/
