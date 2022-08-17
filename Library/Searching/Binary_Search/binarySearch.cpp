@@ -3,17 +3,16 @@ using namespace std;
 
 int binarySearch(int arr[], int n, int start, int end) {
     int mid;
-    while(start<end){
+    while(start<=end){
         mid = (start+end)/2;
         if(arr[mid]==n){
             return mid;
         }
-        else if(arr[mid]<n){
-            end = mid-1;
-            
+        else if(n>arr[mid]) {
+            start = mid+1;
         }
         else{
-            start = mid+1;
+            end = mid-1;
         }
     }
     return -1;
